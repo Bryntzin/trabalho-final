@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    padding: 10px;
+  }
+  
+  .meu-botao {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Remove sublinhado do link */
+    border-radius: 5px;
+  }
+
+  .container-centralizado {
+    display: flex;                /* Alinha os filhos lado a lado */
+    justify-content: center;      /* Centraliza os itens no meio horizontalmente */
+    gap: 20px;                    /* Cria espaço entre os textos */
+    text-align: center;           /* Centraliza o texto dentro de cada item, se necessário */
+}
